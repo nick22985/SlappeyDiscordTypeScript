@@ -1,0 +1,7 @@
+{
+  "name": "SlappeyDiscordTypeScript",
+  "language": "typescript",
+  "manager": "npm",
+  "token": "n/a",
+  "prefix": "!"
+}
