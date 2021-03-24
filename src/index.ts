@@ -8,6 +8,6 @@ const client = new DiscordClient({});
   client.prefix = config.prefix || client.prefix;
   await registerCommands(client, '../commands');
   await registerEvents(client, '../events');
-  await client.login(config.token);
+  await client.login(process.env.DISCORD_BOT_TOKEN);
 })();
 
